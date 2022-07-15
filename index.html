@@ -30,39 +30,42 @@
                 <ul class="flex items-center space-x-8">
                     <li>
                         <a class="text-gray-100 hover:text-gray-200 font-medium" href="*">Become a host</a>
-                        <svg class="h-8 w-8 text-white"  fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <svg class="h-8 w-8 text-white"  fill="none" viewBox="0 0 24 24" stroke="currentColor">    
+                    <section class="w-1/2 h-5 rounded-full bg-white"></section>    
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"/>
                           </svg>
-                          <svg class="h-8 w-8 text-red-500"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <line x1="4" y1="6" x2="20" y2="6" />  <line x1="4" y1="12" x2="20" y2="12" />  <line x1="4" y1="18" x2="20" y2="18" /></svg>
+                          <svg class="h-8 w-8 text-white"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <line x1="4" y1="6" x2="20" y2="6" />  <line x1="4" y1="12" x2="20" y2="12" />  <line x1="4" y1="18" x2="20" y2="18" /></svg>
                           <svg class="h-8 w-8 text-gray-400"  fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
                           </svg>
-                          
-                        <button class="rounded-half border bg-white flex justify-right items-right mx-auto w-26"></button>
+                          <button class="rounded-half border bg-white flex justify-right items-right mx-auto w-26"></button>
+                    </li>
                     </li>
                 </ul>
 
         </nav>
         <!-- form -->
-        <section class="w-1/2 mx-auto h-20 rounded-full bg-white"><br>
-        <!-- call to action -->
-        <div class="table-row">
-            <div class="table-cell text-left...">Location   Where are you going?</div>
-            <div class="table-cell text-left...">Check in   Add dates</div>
-            <div class="table-cell text-left...">Check out  Add dates</div>
-            <div class="table-cell text-left...">Guests  Add guests</div>
-            <svg class="h-8 w-8 text-black-500"  width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="10" cy="10" r="7" bg-red-500/>  <line x1="21" y1="21" x2="15" y2="15" /></svg>
-            <div class="text-center sm:text-left"></div>
-        </div>
+        <section class="w-1/2 pl-4 pb-5 mx-auto rounded-full bg-white"><br>
+            <form class="grid grid-cols-5">
+                <label>Location</label>
+                <input class="row-start-2" placeholder="Where are you going">
+                <label>Check in</label>
+                <input class="row-start-2" placeholder="Add dates">
+                <label>Check out</label>
+                <input class="row-start-2" placeholder="Add dates">
+                <label>Guests</label>
+                <input class="row-start-2" placeholder="Add guest">
+                <svg class="h-8 w-8 text-red-500"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="10" cy="10" r="7" />  <line x1="21" y1="21" x2="15" y2="15" /></svg>
+            </form>
         <div columns-4 columns: 4;>
         <div columns-auto columns: auto;></div>
         </div>
         </section>
-    </body>
+        <br>
         <main class="bg-red-500 h-96 w-11/12 mx-auto rounded">
-            <h1 class="text-center space-y-5 text-white text-5xl flex justify-center item-center align-middle mx-auto h-60">Help House 100&#44;000 refugees fleeing Ukraine</h1>
-            <h1 class="align-middle hover:align-top"></h1>
-            <button class="rounded-half border text-white bg-red-500 flex justify-center items-center mx-auto w-36">Learn More</button>
+            <div class="text-center space-y-5 text-white text-5xl flex justify-center item-center center-right mx-auto h-80">Help House 100&#44;000 refugees fleeing Ukraine</div>
+            <h1 class="text-white text-3xl p-5"></h1>
+            <button class="rounded-lg border p-2 text-white bg-red-500 flex justify-center items-center mx-auto w-36">Learn More</button>
         </main>
     </body>
 </html>
